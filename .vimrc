@@ -12,7 +12,6 @@ Plugin 'gmarik/Vundle.vim'
 
 " Your plugins
 Plugin 'while1eq1/vim-monokai-black'
-Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'bling/vim-airline'
@@ -87,3 +86,16 @@ let mapleader = ","
 
 "relative linenumbers
 set rnu
+
+" C Family completion
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+
+" Command+c / Command+v for copy/paste
+map <D-c> "+y<CR>
+
+" Toggle pastemode with ,[,p
+set pastetoggle=<leader><Tab>
+
+" space = pagedown, - = pageup
+noremap <Space> <PageDown>
+noremap - <PageUp>
