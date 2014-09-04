@@ -18,7 +18,6 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-endwise'
-Plugin 'vim-ruby/vim-ruby'
 Plugin 'pangloss/vim-javascript'
 Plugin 'kien/ctrlp.vim'
 Plugin 'jistr/vim-nerdtree-tabs'
@@ -85,3 +84,6 @@ nnoremap <C-G> :GundoToggle<CR>
 
 " Hail to the new leader!
 let mapleader = ","
+
+"relative linenumbers
+set rnu
