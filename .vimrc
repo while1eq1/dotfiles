@@ -91,7 +91,7 @@ set rnu
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 
 " Command+c / Command+v for copy/paste
-map <D-c> "+y<CR>
+map <leader>c "+y<CR>
 
 " Toggle pastemode with ,[,p
 set pastetoggle=<leader><Tab>
